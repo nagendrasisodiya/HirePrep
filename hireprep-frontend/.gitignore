@@ -1,0 +1,67 @@
+# .gitignore for D:\HirePrep\hireprep-frontend
+
+### Dependencies ###
+node_modules/
+/.pnp
+.pnp.js
+
+### Testing ###
+/coverage
+*.coverage
+.nyc_output
+
+### Production ###
+/build
+/dist
+*.tsbuildinfo
+
+### Environment Variables - CRITICAL ###
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+### Logs ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+### Editor directories and files ###
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+.DS_Store
+
+### Miscellaneous ###
+.cache
+.parcel-cache
+.next
+.nuxt
+.vuepress/dist
+.serverless
+.fusebox
+.dynamodb
+
+### Temporary files ###
+*.tmp
+*.temp
+*~
+
+### Package manager lock files (optional) ###
+# Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+### Build files ###
+*.tgz
+.turbo
